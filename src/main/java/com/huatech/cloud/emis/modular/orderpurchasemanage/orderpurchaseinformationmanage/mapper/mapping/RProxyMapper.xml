@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huatech.cloud.emis.modular.orderpurchasemanage.orderpurchaseinformationmanage.mapper.RProxyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.huatech.cloud.emis.modular.orderpurchasemanage.orderpurchaseinformationmanage.entity.RProxy">
+        <id column="proxy_id" property="proxyId" />
+        <result column="contract_name" property="contractName" />
+        <result column="contract_id" property="contractId" />
+        <result column="project_name" property="projectName" />
+        <result column="contract_first_unit" property="contractFirstUnit" />
+        <result column="contract_second_unit" property="contractSecondUnit" />
+        <result column="contract_code_second" property="contractCodeSecond" />
+        <result column="contract_code_first" property="contractCodeFirst" />
+        <result column="budgetary_price" property="budgetaryPrice" />
+        <result column="project_id" property="projectId" />
+        <result column="proxy_date" property="proxyDate" />
+        <result column="start_date" property="startDate" />
+        <result column="completion_date" property="completionDate" />
+        <result column="content_requirement" property="contentRequirement" />
+        <result column="contracting_officer" property="contractingOfficer" />
+        <result column="first_phone" property="firstPhone" />
+        <result column="contractor_name" property="contractorName" />
+        <result column="second_phone" property="secondPhone" />
+        <result column="proxy_number" property="proxyNumber" />
+        <result column="company_id" property="companyId" />
+        <result column="single_money" property="singleMoney" />
+        <result column="add_up_money" property="addUpMoney" />
+        <result column="remain_money" property="remainMoney" />
+        <result column="project_department" property="projectDepartment" />
+        <result column="move_type" property="moveType" />
+        <result column="construction_address" property="constructionAddress" />
+        <result column="project_manager" property="projectManager" />
+        <result column="create_user" property="createUser" />
+        <result column="create_time" property="createTime" />
+        <result column="update_user" property="updateUser" />
+        <result column="update_time" property="updateTime" />
+        <result column="design_unit" property="designUnit" />
+        <result column="supervisor_unit" property="supervisorUnit" />
+        <result column="note" property="note" />
+        <result column="task_name" property="taskName" />
+        <result column="item_name" property="itemName" />
+        <result column="category4" property="category4" />
+        <result column="category3" property="category3" />
+        <result column="category2" property="category2" />
+        <result column="category1" property="category1" />
+        <result column="single_money_rate" property="singleMoneyRate" />
+        <result column="no_rate_money" property="noRateMoney" />
+        <result column="rate_money" property="rateMoney" />
+        <result column="tax" property="tax" />
+        <result column="framework_money" property="frameworkMoney" />
+        <result column="framework_date" property="frameworkDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        proxy_id, contract_name, contract_id, project_name, contract_first_unit, contract_second_unit, contract_code_second, contract_code_first, budgetary_price, project_id, proxy_date, start_date, completion_date, content_requirement, contracting_officer, first_phone, contractor_name, second_phone, proxy_number, company_id, single_money, add_up_money, remain_money, project_department, move_type, construction_address, project_manager, create_user, create_time, update_user, update_time, design_unit, supervisor_unit, note, task_name, item_name, category4, category3, category2, category1, single_money_rate, no_rate_money, rate_money, tax, framework_money, framework_date
+    </sql>
+
+</mapper>

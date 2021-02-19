@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huatech.cloud.emis.modular.singleprojectmanage.singleprojectinfomanage.mapper.RSingleProjectMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.huatech.cloud.emis.modular.singleprojectmanage.singleprojectinfomanage.entity.RSingleProject">
+        <id column="single_project_id" property="singleProjectId" />
+        <result column="proxy_order_id" property="proxyOrderId" />
+        <result column="subcontract_id" property="subcontractId" />
+        <result column="construction_order_id" property="constructionOrderId" />
+        <result column="work_order_type" property="workOrderType" />
+        <result column="comp_id" property="compId" />
+        <result column="engineering_id" property="engineeringId" />
+        <result column="project_department" property="projectDepartment" />
+        <result column="project_name" property="projectName" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+        <result column="district" property="district" />
+        <result column="cust_name" property="custName" />
+        <result column="cust_phone" property="custPhone" />
+        <result column="budget_amount" property="budgetAmount" />
+        <result column="estimate_amount" property="estimateAmount" />
+        <result column="major_type" property="majorType" />
+        <result column="order_detail_id" property="orderDetailId" />
+        <result column="project_scheduler" property="projectScheduler" />
+        <result column="project_file" property="projectFile" />
+        <result column="proxy_id" property="proxyId" />
+        <result column="purchase_order_id" property="purchaseOrderId" />
+        <result column="build_unit_id" property="buildUnitId" />
+        <result column="build_tiem_id" property="buildTiemId" />
+        <result column="proxy_name" property="proxyName" />
+        <result column="proxy_number" property="proxyNumber" />
+        <result column="project_progress" property="projectProgress" />
+        <result column="mobile_administrator" property="mobileAdministrator" />
+        <result column="address" property="address" />
+        <result column="create_user" property="createUser" />
+        <result column="create_time" property="createTime" />
+        <result column="update_user" property="updateUser" />
+        <result column="update_time" property="updateTime" />
+        <result column="note" property="note" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        single_project_id, proxy_order_id, subcontract_id, construction_order_id, work_order_type, comp_id, engineering_id, project_department, project_name, longitude, latitude, district, cust_name, cust_phone, budget_amount, estimate_amount, major_type, order_detail_id, project_scheduler, project_file, proxy_id, purchase_order_id, build_unit_id, build_tiem_id, proxy_name, proxy_number, project_progress, mobile_administrator, address, create_user, create_time, update_user, update_time, note
+    </sql>
+
+</mapper>

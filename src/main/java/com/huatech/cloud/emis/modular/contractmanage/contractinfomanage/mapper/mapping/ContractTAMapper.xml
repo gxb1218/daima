@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huatech.cloud.emis.modular.contractmanage.contractinfomanage.mapper.ContractTAMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.huatech.cloud.emis.modular.contractmanage.contractinfomanage.entity.ContractTA">
+        <id column="contract_a_id" property="contractAId" />
+        <result column="contract_id" property="contractId" />
+        <result column="contract_code_first" property="contractCodeFirst" />
+        <result column="contract_first_signing_unit" property="contractFirstSigningUnit" />
+        <result column="contract_first_unit" property="contractFirstUnit" />
+        <result column="contract_first_unit_tel" property="contractFirstUnitTel" />
+        <result column="contract_first_phone" property="contractFirstPhone" />
+        <result column="contract_option_fist_unit" property="contractOptionFistUnit" />
+        <result column="first_industry" property="firstIndustry" />
+        <result column="first_open_bank" property="firstOpenBank" />
+        <result column="first_open_bank_name" property="firstOpenBankName" />
+        <result column="first_tax_code" property="firstTaxCode" />
+        <result column="first_bank_account" property="firstBankAccount" />
+        <result column="create_user" property="createUser" />
+        <result column="create_time" property="createTime" />
+        <result column="update_user" property="updateUser" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        contract_a_id, contract_id, contract_code_first, contract_first_signing_unit, contract_first_unit, contract_first_unit_tel, contract_first_phone, contract_option_fist_unit, first_industry, first_open_bank, first_open_bank_name, first_tax_code, first_bank_account, create_user, create_time, update_user, update_time
+    </sql>
+
+</mapper>
